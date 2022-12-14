@@ -21,6 +21,15 @@ git log
 
 ```sh
 git log --oneline
-``` 
+```
+
+## GIT DIFF
+Me sirve para visualizar los cambios que hay entre el WD (working directory) y la última foto (Commit) dentro de la caja de commits (Local Repo)
+
+```sh
+git diff
+```
+
+
 
 

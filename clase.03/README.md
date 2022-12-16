@@ -87,7 +87,11 @@ Me permite ignorar archivos que no quiero que pertenezcan al repositorio. El git
 ## GITKEEP
 Lo creo la comunidad para incluir en los repositorios carpetas vacías.
 
+## GIT ADD PATCH (CONTINUACIÓN)
 
+```sh
+git add --patch
+```
 
 
 

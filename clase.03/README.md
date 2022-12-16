@@ -60,3 +60,28 @@ git push -u origin main
 ```sh
 git push
 ```
+
+## Resolver el conflicto. 
+Cuando hay una diferencia entre la historia (Los hashes) del local con los del remoto
+
+
+![conflicto-01](imgs/conflicto-01.png)
+
+![conflicto-02](imgs/conflicto-02.png)
+
+
+```sh
+git push -f # Fuerza la subida de lo que está en el repo local.
+```
+
+## GITGNORE
+Me permite ignorar archivos que no quiero que pertenezcan al repositorio. El gitignore se coloca en la raíz del proyecto.
+
+## GITKEEP
+Lo creo la comunidad para incluir en los repositorios carpetas vacías.
+
+
+
+
+
+

@@ -46,6 +46,13 @@ git remote -v
 git remote add <alias> <url-del-remoto>
 ```
 
+> Para quitar un remoto
+
+```sh
+git remote remove <alias>
+git remote remove origin
+```
+
 ## Si quiero subir al repositorio remoto el local
 
 > La primera vez

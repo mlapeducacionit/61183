@@ -25,5 +25,10 @@ git switch <nombre-rama>
 git switch data-ramas
 ```
 
+### Borrar rama
 
+```sh
+git branch -d <nombre-de-rama-que-quiero-eliminar>
+git branch data-ramas
+``` 
 

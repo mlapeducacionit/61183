@@ -2,6 +2,13 @@
 
 ## RAMAS
 
+### Para crear una rama y moverme a esa rama.
+
+```sh
+git switch -c <nombre-de-la-rama>
+git switch -c dev
+```
+
 ### TIPO DE MERGE (FUNSIONES)
 
 * Fast-Forward (No hay ningun conflicto. Lo hace automatico) [No Agrega un commit]

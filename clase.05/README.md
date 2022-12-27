@@ -8,6 +8,11 @@
 git switch -c <nombre-de-la-rama>
 git switch -c dev
 ```
+### Cambiarme a la rama anterior
+
+```sh
+git switch -
+```
 
 ### TIPO DE MERGE (FUNSIONES)
 

@@ -43,6 +43,20 @@ git stash
 git stash list
 ```
 
+## Veo en detalle lo que hay dentro del stash
+
+```sh
+git stash show -p # Me muestra la info detalla del contenido del último stash
+git stash show -p stash@{5} # Me muestra la info detalla del contenido del stash indicado
+```
+
+## Comparar con ramas los stashes
+
+```sh
+git diff <número-de-stash> <rama>
+git diff stash{0} main
+```
+
 ## Recupero el último stash que tengo en la pila
 
 ```sh

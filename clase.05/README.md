@@ -81,3 +81,12 @@ git stash branch <nombre-de-ramas>
 
 <https://medium.com/@jmz12/buenas-pr%C3%A1cticas-para-commits-5eb4c86b9a47>
 
+## Para investigar y profundizar sobre los comandos, tengo el man de los diferentes comando
+
+```sh
+git <subcomando> --help
+git commit --help
+git stash --help
+git merge --help
+git switch --help
+```

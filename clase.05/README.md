@@ -104,3 +104,23 @@ git stash --help
 git merge --help
 git switch --help
 ```
+
+## GIT RESET
+
+* RESET SOFT (SUAVE) No destructivo. Borra el commit y los cambios los mueve Staged area, listo para ser commiteados
+
+```sh
+git reset soft <numero-commit-(hash)>
+```
+* RESET MIXED (MIXED) No destrucivo. Borra el commit y los cambios los mueve Working Directory
+
+```sh
+git reset <numero-commit-(hash)>
+git reset mixed <numero-commit-(hash)>
+```
+
+* RESET HARD (DURO) Si destructivo. Borra el commit y borra los cambios que puedan tener esos commit.
+
+```sh
+git reset hard <numero-commit-(hash)>
+```

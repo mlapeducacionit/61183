@@ -65,6 +65,12 @@ git stash apply <numero-stash> # Aplico un stash en particular
 git stash apply stash@{1}
 ```
 
+## Para borrar todos los stashes
+
+```sh
+git stash clear
+```
+
 ## A partir de un stash crear un rama
 
 ```sh

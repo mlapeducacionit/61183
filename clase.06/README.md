@@ -53,6 +53,9 @@ git push --delete origin v0.1.0
 
 * HEAD
 
+### Utilizar HEAD como refencia. 
+
+HEAD^4: Selecciona 4 commit por debajo de head
 
 ## Subir tags
 
@@ -88,3 +91,37 @@ git push --tags # No es buena practica
 9. Subo a mi repositorio remoto (Fork) las actualizaciones del repo local
 
     git push origin <rama-a-actualizar>
+
+## GITHUB CLI
+Es un herramienta para interacturar con los repositorios remotos de GITHUB
+
+<https://cli.github.com/>
+
+
+## GIST
+Compartir código, pasar snippet a otras personas o información que quiero compartir.
+
+<https://gist.github.com/>
+
+Secretos => Solo la persona que tienen link puede verlo. No son privados
+Publicos => Se van indexar en los motores de búsqueda
+
+Pueden tener varios archivos y sus revisiones.
+
+
+## Crear caratura o presentación de mi cuenta de github
+
+Tengo que crear un repo con este nombre: mlapeducacionit
+
+## GIT PAGES
+Me permite alojar un sitio, estaticos. Aplicaciones React, Vue, Angular.
+Hosting gratuito.
+
+Respositorio que me crear una GitPages: mlapeducacionit.github.io
+
+Hay que activar las GitHub Pages... 
+
+Settings > Pages...
+
+## GIT REBASE
+Lo mismo que el merce. Si me quiero traer los cambios de otra rama, tengo que hacerl el rebaso sobre la rama actual y llamar a la rama que me quiero traer

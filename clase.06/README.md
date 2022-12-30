@@ -41,7 +41,7 @@ git push --delete origin <TAG>
 git push --delete origin v0.1.0
 ```
 
-## Punteros
+## Punteros (Apuntadores)
 
 ![punteros](imgs/punteros.png)
 
@@ -55,7 +55,7 @@ git push --delete origin v0.1.0
 
 ### Utilizar HEAD como refencia. 
 
-HEAD^4: Selecciona 4 commit por debajo de head
+HEAD~4: Selecciona 4 commit por debajo de head
 
 ## Subir tags
 
@@ -142,3 +142,6 @@ git rebase -i
 * Unir commits
 * Separar commits
 
+## Mail
+
+mlapeducacionit@gmail.com

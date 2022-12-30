@@ -125,3 +125,20 @@ Settings > Pages...
 
 ## GIT REBASE
 Lo mismo que el merce. Si me quiero traer los cambios de otra rama, tengo que hacerl el rebaso sobre la rama actual y llamar a la rama que me quiero traer
+
+```sh
+git rebase <rama-origen>
+git rebase reset
+```
+
+## REBASE Interactivo
+
+```sh
+git rebase -i
+```
+
+* Ordenar commits
+* Corregir mensajes de los commits
+* Unir commits
+* Separar commits
+

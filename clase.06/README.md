@@ -41,6 +41,19 @@ git push --delete origin <TAG>
 git push --delete origin v0.1.0
 ```
 
+## Punteros
+
+![punteros](imgs/punteros.png)
+
+### Punteros estaticos
+
+* Branches, tags
+
+### Puntero dinamico
+
+* HEAD
+
+
 ## Subir tags
 
 ### Subir un tag en especifico.
@@ -54,8 +67,6 @@ git push origin <TAG>
 ```sh
 git push --tags # No es buena practica
 ```
-
-
 
 ## Trabajar en proyectos Open Source (Pull Request)
 
